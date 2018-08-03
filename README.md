@@ -1,6 +1,6 @@
-# magento-product-image-converter
+# Magento product image converter
 
-Convert magento product images to the specified format
+Convert Magento product images to the specified format
 
 Generates an sql to execute against the magento database in order to update the image links. If you feel brave you can also directly update the database by passing the `-e` option to the command.
 
