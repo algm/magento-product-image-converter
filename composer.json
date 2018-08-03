@@ -1,0 +1,26 @@
+{
+  "name": "algm/magento-product-image-converter",
+  "description": "Convert images from magento products to the specified format",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonio Gázquez",
+      "email": "antonio.gazquez@redegal.com"
+    }
+  ],
+  "require": {
+    "league/climate": "^3.4",
+    "vlucas/phpdotenv": "^2.5",
+    "illuminate/support": "^5.6",
+    "illuminate/database": "^5.6",
+    "rych/bytesize": "^1.0",
+    "league/flysystem": "^1.0",
+    "intervention/image": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Algm\\MagentoImageConverter\\": "src/"
+    }
+  }
+}
